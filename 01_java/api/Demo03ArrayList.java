@@ -24,5 +24,6 @@ public class Demo03ArrayList {
         //获取长度:public int size()
         int len = list.size();
         System.out.println("list长度：" + len);
+        System.out.println("test");
     }
 }
