@@ -27,5 +27,26 @@ public class Demo01Details {
         // 对于基本类型当中的boolean的值，Getter方法一定要写成isXxx的形式，而setXxx规则不变
 
         //泛型只能是引用类型，不能是基本类型
+
+        /**
+         * 基本类型     包装类
+         * byte         Byte
+         * short        Short
+         * int          Integer
+         * long         Long
+         * float        Float
+         * double       Double
+         * char         Character
+         * boolean      Boolean
+         */
+
+        /**
+         * 字符串的特点；
+         *  字符串的内容永不改变
+         *  字符串是可以共享使用的
+         *  字符串的效果上相当于char[]字符数组，但是底层原理是byte[]字节数组
+         */
+
+
     }
 }
