@@ -52,16 +52,52 @@ public class Demo04String {
         //获取指定位置的字符
         char ch = "Hello".charAt(1);
         System.out.println("ch:" + ch);
+        System.out.println("==================");
 
         //查找字符串在本字符串中首次出现的索引位置，如果没有返回-1
         String origin = "helloWorld";
         int llo = origin.indexOf("llo");
         System.out.println("origin.index('llo'):" + llo);
+        System.out.println("==================");
 
         //截取字符串
         String s3 = "helloWorld";
         String s4 = s3.substring(5);
         System.out.println("s3.substring(5):" + s4);
+        String s5 = s3.substring(0, 5);
+        System.out.println("s3.substring(0,5):" + s5);
+        System.out.println("==================");
+
+        //将当前字符串拆分为字符数组
+        char[] chars = "hello".toCharArray();
+        System.out.println("chars:" + chars[0] + ",length:" + chars.length);
+
+        //获得当前字符串底层的字节数组
+        byte[] bytes = "abc".getBytes();
+        for (int i = 0; i < bytes.length; i++) {
+            System.out.println(bytes[i]);
+        }
+
+        //将所有出现的老字符串替换成为新的字符串:public String replace(CharSequence oldString, CharSequence newString)
+        String oldString = "How do you do?";
+        String newString = oldString.replace("o", "*");
+        System.out.println("oldString->newString:" + newString);
+        System.out.println("==================");
+
+        //分割字符串
+        String splitString = "aaa,bbb,ccc";
+        String[] array = splitString.split(",");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+        String splitDot = "xxx.yyy.zzz";
+        String[] array1 = splitDot.split("\\.");
+        for (int i = 0; i < array1.length; i++) {
+            System.out.println(array1[i]);
+        }
+        System.out.println("==================");
+
+
 
     }
 }
