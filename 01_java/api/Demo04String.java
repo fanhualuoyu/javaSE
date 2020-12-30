@@ -1,6 +1,6 @@
 package api;
 
-// String类
+// String类 和 StringBuilder类
 public class Demo04String {
     public static void main(String[] args) {
         //使用空参构造
@@ -97,7 +97,15 @@ public class Demo04String {
         }
         System.out.println("==================");
 
-
-
+        //StringBuilder类：效率高，初始容量为16，容量不够时自动扩容
+        StringBuilder stringBuilder = new StringBuilder();
+        System.out.println(stringBuilder);
+        StringBuilder stringBuilder1 = new StringBuilder("abc");
+        System.out.println(stringBuilder1);
+        StringBuilder stringBuilder2 = stringBuilder1.append("abc"); // 返回的是this，所以可以不用返回值
+        System.out.println(stringBuilder2);
+        System.out.println(stringBuilder1 == stringBuilder2);
+        String str = stringBuilder2.toString(); // stringBuilder -> String
+        System.out.println(str);
     }
 }

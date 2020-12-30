@@ -102,5 +102,23 @@ public class Demo01Details {
          *   不同包子类       YES           YES          NO             NO
          *   不同包非子类     YES            NO          NO             NO
          */
+
+        /**
+         * String与StringBuilder:
+         *   String：字符串是常量，它们的值创建之后不能更改，底层是一个被final修饰的数组，不能改变，是一个常量
+         *   StringBuilder：字符串缓冲区，可以提高字符串的操作效率(看成是一个长度可以变换的数组)
+         */
+
+        /**
+         * Collection接口：所有单列表集合中共性的方法
+         *     没有带索引的方法
+         * List接口：
+         *      有序的集合
+         *      允许存储重复的元素
+         *      有索引，可以使用普通的for循环
+         * Set接口：
+         *      不允许存储重复元素
+         *      没有索引，不能使用普通的for循环遍历
+         */
     }
 }
