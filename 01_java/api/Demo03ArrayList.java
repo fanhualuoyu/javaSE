@@ -2,7 +2,7 @@ package api;
 
 import java.util.ArrayList;
 
-// ArrayList类
+//ArrayList类
 public class Demo03ArrayList {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();

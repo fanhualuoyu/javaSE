@@ -1,7 +1,11 @@
 package api;
 
+import domain.Demo10CollectionPerson;
+
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 //Collection类
 public class Demo10Collection {
@@ -48,5 +52,40 @@ public class Demo10Collection {
         coll.clear();
         System.out.println(coll);
         System.out.println("=======================");
+
+        //Collections
+        demo();
+    }
+
+
+    //Collections
+    public static void demo() {
+        ArrayList<String> list = new ArrayList<>();
+        Collections.addAll(list,"a","b","c","d");
+        System.out.println(list);
+        Collections.shuffle(list); //打乱列表顺序
+        System.out.println(list);
+        System.out.println("=======================");
+
+        ArrayList<Integer> list1 = new ArrayList<>();
+        list1.add(1);
+        list1.add(3);
+        list1.add(2);
+        System.out.println(list1);
+        Collections.sort(list1); //列表中的值排序，默认是升序
+        System.out.println(list1);
+        System.out.println("=======================");
+
+        ArrayList<Demo10CollectionPerson> list2 = new ArrayList<>();
+        list2.add(new Demo10CollectionPerson("张三",18));
+        list2.add(new Demo10CollectionPerson("王五",20));
+        list2.add(new Demo10CollectionPerson("李四",19));
+        Collections.sort(list2);//需要实现Comparable接口
+        Collections.sort(list2, new Comparator<Demo10CollectionPerson>() {
+            @Override
+            public int compare(Demo10CollectionPerson demo10CollectionPerson, Demo10CollectionPerson t1) {
+                return demo10CollectionPerson.getAge() - t1.getAge();
+            }
+        });
     }
 }
