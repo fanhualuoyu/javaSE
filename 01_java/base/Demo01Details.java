@@ -120,5 +120,15 @@ public class Demo01Details {
          *      不允许存储重复元素
          *      没有索引，不能使用普通的for循环遍历
          */
+
+        /**
+         * 泛型接口：
+         *  1. 定义接口的实现类，实现接口，指定接口的泛型
+         *      public interface Iterator<E>{E.next()}
+         *      public final class Scanner implements Iterator<String>{}
+         *  2. 接口使用什么泛型，实现类就使用什么泛型，类跟着接口走
+         *      public interface list<E>{boolean add(E e); E get(int index);}
+         *      public class ArrayList<E> implements list<E> {public boolean add(E e){}; public E get(int index);}
+         */
     }
 }
