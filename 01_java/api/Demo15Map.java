@@ -1,15 +1,20 @@
 package api;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 //Map接口及其子类
 public class Demo15Map {
     public static void main(String[] args) {
         demo1();
         demo2();
+        demo3();
     }
+
+    /**
+     * HashMap存储自定义类型键值
+     * Map集合保证key是唯一的：
+     *    作为Key的元素，必须重写HashCode方法和equals方法，以保证key唯一
+     */
 
     //HashMap:无序的
     public static void demo1() {
@@ -55,10 +60,33 @@ public class Demo15Map {
 
     }
 
-    //Entry对象：用来
-
-    //LinkedHashMap:有序的
-    public static void demo2() {
-
+    //Entry对象：用来记录键和值。当Map集合被创建的时候，就会在Map集合中创建一个Entry对象。
+    private static void demo2() { //遍历
+        //Set<Entry<K,V>> entrySet():返回此映射中包含的映射关系的Set视图
+        Map<String,Integer> map = new HashMap<>();
+        map.put("张三",18);
+        map.put("李四",20);
+        map.put("王五",19);
+        Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
+        Iterator<Map.Entry<String, Integer>> it = entrySet.iterator();
+        while (it.hasNext()) {
+            Map.Entry<String, Integer> entry = it.next();
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            System.out.println(key + "=" + value);
+        }
+        System.out.println("=====================");
     }
+
+    //LinkedHashMap:有序的。继承了HashMap集合
+    public static void demo3() {
+        LinkedHashMap<String,Integer> map = new LinkedHashMap<>();
+        map.put("张三",18);
+        map.put("李四",20);
+        map.put("王五",19);
+        System.out.println(map);
+    }
+
+    //Hashtable<K,V>：不允许存储空。它的子类Properties依然再用
+
 }
