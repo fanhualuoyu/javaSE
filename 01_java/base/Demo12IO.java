@@ -1,6 +1,7 @@
 package base;
 
 import java.io.*;
+import java.util.Arrays;
 
 //IO流
 public class Demo12IO {
@@ -9,8 +10,17 @@ public class Demo12IO {
         //字节输出流：OutputStream(抽象类)【内容写到磁盘上】
         //show1();
 
-        show2();
+        //字节输入流：InputStream(抽象类)【磁盘加载到内存上】
+        //show2();
+
+        //字节输入流一次夺取多个字节的方法
+        //show3();
+
+        //字符输入流
+        //FileReader extends InputStreamReader extends Reader
+        show4();
     }
+
 
     //字节输出流：OutputStream(抽象类)【内存中的内容写到磁盘上】
     private static void show1() throws IOException {
@@ -52,5 +62,27 @@ public class Demo12IO {
             System.out.print((char)f1);
         }
         fileInputStream.close();
+    }
+
+    //字节输入流一次夺取多个字节的方法
+    private static void show3() throws IOException {
+        FileInputStream fileInputStream = new FileInputStream("D:\\web\\javaSE\\01_java\\file\\a.txt");
+        byte[] bytes = new byte[2];
+        int len = fileInputStream.read(bytes);
+        System.out.println(len); //2
+        System.out.println(Arrays.toString(bytes)); //[97,98]
+        System.out.println(new String(bytes));
+        System.out.println(new String(bytes,0, 1));
+        fileInputStream.close();
+    }
+
+    //字符输入流
+    //FileReader extends InputStreamReader extends Reader
+    private static void show4() throws IOException {
+        FileReader fileReader = new FileReader("D:\\web\\javaSE\\01_java\\file\\b.txt");
+        int len = 0;
+        while ((len = fileReader.read()) != -1) {
+            System.out.println((char) len);
+        }
     }
 }
