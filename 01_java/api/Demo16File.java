@@ -33,7 +33,7 @@ public class Demo16File {
 
     //File类中的方法
     private static void show1() {
-        File f1 = new File("D:\\web\\javaSE\\01_java\\file\\a.txt");
+        File f1 = new File("01_java\\file\\a.txt");
         File f2 = new File("a.txt");
         //获取绝对路径
         String absolutePath = f1.getAbsolutePath();
@@ -66,7 +66,7 @@ public class Demo16File {
 
     //File类中的判断方法
     private static void show2() {
-        File f1 = new File("D:\\web\\javaSE\\01_java\\file\\a.txt");
+        File f1 = new File("01_java\\file\\a.txt");
         //判断是否存在
         System.out.println(f1.exists());
         System.out.println("==================");
@@ -81,13 +81,13 @@ public class Demo16File {
 
     //File中的创建删除
     private static void show3() throws IOException {
-        File f1 = new File("D:\\web\\javaSE\\01_java\\file\\a.txt");
+        File f1 = new File("01_java\\file\\a.txt");
         //创建文件
         boolean b1 = f1.createNewFile();
         System.out.println(b1);
 
         //创建文件夹
-        File f2 = new File("D:\\web\\javaSE\\01_java\\file\\cs");
+        File f2 = new File("01_java\\file\\cs");
         boolean b2 = f2.mkdir(); //不能创建多级文件夹[f2.mkdirs()可以创建多级文件夹]
         System.out.println(b2);
 
@@ -99,7 +99,7 @@ public class Demo16File {
 
     //File中的遍历目录（文件夹）
     private static void show4() {
-        File f1 = new File("D:\\web\\javaSE\\01_java");
+        File f1 = new File("01_java");
         //返回一个String数组中
         String[] strings = f1.list();
         for (String string : strings) {
