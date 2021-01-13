@@ -27,7 +27,13 @@ public class Demo12IO {
         //show6();
 
         //字符缓冲流
-        show7();
+        //show7();
+
+        //转换流InputStreamReader
+        show8();
+
+        //转换流OutputStreamWriter
+        show9();
     }
 
 
@@ -143,5 +149,23 @@ public class Demo12IO {
         String line = bufferedReader.readLine();
         System.out.println(line);
         bufferedReader.close();
+    }
+
+    //转换流InputStreamReader(解码)：字节流向字符的桥梁
+    private static void show8() throws IOException {
+        InputStreamReader isr = new InputStreamReader(new FileInputStream("01_java\\file\\j.txt"),"GBK");
+        int len = 0;
+        while ((len = isr.read()) != -1) {
+            System.out.print((char) len);
+        }
+        isr.close();
+    }
+
+    //转换流OutputStreamWriter(编码)：字符通向字节的桥梁
+    private static void show9() throws IOException {
+        OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("01_java\\file\\j.txt"),"GBK");
+        osw.write("你好");
+        osw.flush();
+        osw.close();
     }
 }
