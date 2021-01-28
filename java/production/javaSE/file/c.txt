@@ -1,5 +1,0 @@
-#sava data
-#Mon Jan 11 21:12:13 CST 2021
-lisi=2
-zhangsan=1
-wanger=3
