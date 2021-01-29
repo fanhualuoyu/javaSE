@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day01_easy_02mybatis_annotation" />
+        <module name="day04_easy_03annotation_mybatis" />
+        <module name="day02_easy_01mybatisCRUD" />
+        <module name="day06_easy_02account_xmlioc" />
+        <module name="day08_easy_02tx" />
+        <module name="day09_easy_02springMVC_response" />
+        <module name="day09_easy_04springMVC_exception" />
+        <module name="day08_easy_04tx_anno" />
+        <module name="day01_easy_01mybatis_design" />
+        <module name="day07_easy_01account" />
+        <module name="day06_easy_03account_annoioc" />
+        <module name="day08_easy_03tx_xml" />
+        <module name="day05_easy_01factory" />
+        <module name="day09_easy_03springMVC_fileUpload" />
+        <module name="day08_easy_05anno_tx_withoutxml" />
+        <module name="day03_easy_02one2many" />
+        <module name="day07_easy_05annotationAOP" />
+        <module name="day05_easy_02spring" />
+        <module name="day06_easy_04account_annoioc_withoutxml" />
+        <module name="day04_easy_02cache" />
+        <module name="day04_easy_01lazy" />
+        <module name="day09_easy_05springMVC_interceptor" />
+        <module name="day02_easy_02mybatisDAO" />
+        <module name="day05_easy_04DI" />
+        <module name="day03_easy_01dynamicSQL" />
+        <module name="day03_easy_03many2many" />
+        <module name="day04_easy_04annoOne2Many" />
+        <module name="day01_easy_01mybatis" />
+        <module name="day01_easy_03mybatis_dao" />
+        <module name="day09_easy_01springMVC_start" />
+        <module name="ssmunit" />
+        <module name="day07_easy_03_springAOP" />
+        <module name="day05_easy_03bean" />
+        <module name="day07_easy_04adviceType" />
+        <module name="day07_easy_02proxy" />
+        <module name="day06_easy_01anno_ioc" />
+        <module name="day08_easy_01jdbctemplate" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day01_easy_01mybatis" target="1.5" />
+      <module name="day01_easy_01mybatis_design" target="1.5" />
+      <module name="day01_easy_02mybatis_annotation" target="1.5" />
+      <module name="day01_easy_03mybatis_dao" target="1.5" />
+      <module name="day02_easy_01mybatisCRUD" target="1.5" />
+      <module name="day02_easy_02mybatisDAO" target="11" />
+      <module name="day03_easy_01dynamicSQL" target="11" />
+      <module name="day03_easy_02one2many" target="11" />
+      <module name="day03_easy_03many2many" target="11" />
+      <module name="day04_easy_01lazy" target="11" />
+      <module name="day04_easy_02cache" target="11" />
+      <module name="day04_easy_03annotation_mybatis" target="11" />
+      <module name="day04_easy_04annoOne2Many" target="11" />
+      <module name="day05_easy_01factory" target="11" />
+      <module name="day05_easy_02spring" target="11" />
+      <module name="day05_easy_03bean" target="6" />
+      <module name="day05_easy_04DI" target="6" />
+      <module name="day06_easy_01anno_ioc" target="6" />
+      <module name="day06_easy_02account_xmlioc" target="1.5" />
+      <module name="day06_easy_03account_annoioc" target="11" />
+      <module name="day06_easy_04account_annoioc_withoutxml" target="11" />
+      <module name="day07_easy_01account" target="1.8" />
+      <module name="day07_easy_02proxy" target="1.8" />
+      <module name="day07_easy_03_springAOP" target="1.5" />
+      <module name="day07_easy_04adviceType" target="1.5" />
+      <module name="day07_easy_05annotationAOP" target="1.5" />
+      <module name="day08_easy_01jdbctemplate" target="1.8" />
+      <module name="day08_easy_02tx" target="6" />
+      <module name="day08_easy_03tx_xml" target="6" />
+      <module name="day08_easy_04tx_anno" target="6" />
+      <module name="day08_easy_05anno_tx_withoutxml" target="6" />
+      <module name="day09_easy_01springMVC_start" target="1.8" />
+      <module name="day09_easy_02springMVC_response" target="1.8" />
+      <module name="day09_easy_03springMVC_fileUpload" target="1.8" />
+      <module name="day09_easy_04springMVC_exception" target="1.8" />
+      <module name="day09_easy_05springMVC_interceptor" target="1.8" />
+      <module name="ssmunit" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

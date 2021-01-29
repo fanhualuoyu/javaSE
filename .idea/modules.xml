@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day01_easy_01mybatis/day01_easy_01mybatis.iml" filepath="$PROJECT_DIR$/02_ssm/day01_easy_01mybatis/day01_easy_01mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day01_easy_04mybatis_design/day01_easy_01mybatis_design.iml" filepath="$PROJECT_DIR$/02_ssm/day01_easy_04mybatis_design/day01_easy_01mybatis_design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day01_easy_02mybatis_annotation/day01_easy_02mybatis_annotation.iml" filepath="$PROJECT_DIR$/02_ssm/day01_easy_02mybatis_annotation/day01_easy_02mybatis_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day01_easy_03mybatis_dao/day01_easy_03mybatis_dao.iml" filepath="$PROJECT_DIR$/02_ssm/day01_easy_03mybatis_dao/day01_easy_03mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day02_easy_01mybatisCRUD/day02_easy_01mybatisCRUD.iml" filepath="$PROJECT_DIR$/02_ssm/day02_easy_01mybatisCRUD/day02_easy_01mybatisCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day02_easy_02mybatisDAO/day02_easy_02mybatisDAO.iml" filepath="$PROJECT_DIR$/02_ssm/day02_easy_02mybatisDAO/day02_easy_02mybatisDAO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day03_easy_01dynamicSQL/day03_easy_01dynamicSQL.iml" filepath="$PROJECT_DIR$/02_ssm/day03_easy_01dynamicSQL/day03_easy_01dynamicSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day03_easy_02one2many/day03_easy_02one2many.iml" filepath="$PROJECT_DIR$/02_ssm/day03_easy_02one2many/day03_easy_02one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day03_easy_03many2many/day03_easy_03many2many.iml" filepath="$PROJECT_DIR$/02_ssm/day03_easy_03many2many/day03_easy_03many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day04_easy_01lazy/day04_easy_01lazy.iml" filepath="$PROJECT_DIR$/02_ssm/day04_easy_01lazy/day04_easy_01lazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day04_easy_02cache/day04_easy_02cache.iml" filepath="$PROJECT_DIR$/02_ssm/day04_easy_02cache/day04_easy_02cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day04_easy_03annotation_mybatis/day04_easy_03annotation_mybatis.iml" filepath="$PROJECT_DIR$/02_ssm/day04_easy_03annotation_mybatis/day04_easy_03annotation_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day04_easy_04annoOne2Many/day04_easy_04annoOne2Many.iml" filepath="$PROJECT_DIR$/02_ssm/day04_easy_04annoOne2Many/day04_easy_04annoOne2Many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day05_easy_01factory/day05_easy_01factory.iml" filepath="$PROJECT_DIR$/02_ssm/day05_easy_01factory/day05_easy_01factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day05_easy_02spring/day05_easy_02spring.iml" filepath="$PROJECT_DIR$/02_ssm/day05_easy_02spring/day05_easy_02spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day05_easy_03bean/day05_easy_03bean.iml" filepath="$PROJECT_DIR$/02_ssm/day05_easy_03bean/day05_easy_03bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day05_easy_04DI/day05_easy_04DI.iml" filepath="$PROJECT_DIR$/02_ssm/day05_easy_04DI/day05_easy_04DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day06_easy_01anno_ioc/day06_easy_01anno_ioc.iml" filepath="$PROJECT_DIR$/02_ssm/day06_easy_01anno_ioc/day06_easy_01anno_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day06_easy_02account_xmlioc/day06_easy_02account_xmlioc.iml" filepath="$PROJECT_DIR$/02_ssm/day06_easy_02account_xmlioc/day06_easy_02account_xmlioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day06_easy_03account_annoioc/day06_easy_03account_annoioc.iml" filepath="$PROJECT_DIR$/02_ssm/day06_easy_03account_annoioc/day06_easy_03account_annoioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day06_easy_04account_annoioc_withoutxml/day06_easy_04account_annoioc_withoutxml.iml" filepath="$PROJECT_DIR$/02_ssm/day06_easy_04account_annoioc_withoutxml/day06_easy_04account_annoioc_withoutxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day07_easy_01account/day07_easy_01account.iml" filepath="$PROJECT_DIR$/02_ssm/day07_easy_01account/day07_easy_01account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day07_easy_02proxy/day07_easy_02proxy.iml" filepath="$PROJECT_DIR$/02_ssm/day07_easy_02proxy/day07_easy_02proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day07_easy_03_springAOP/day07_easy_03_springAOP.iml" filepath="$PROJECT_DIR$/02_ssm/day07_easy_03_springAOP/day07_easy_03_springAOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day07_easy_04adviceType/day07_easy_04adviceType.iml" filepath="$PROJECT_DIR$/02_ssm/day07_easy_04adviceType/day07_easy_04adviceType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day07_easy_05annotationAOP/day07_easy_05annotationAOP.iml" filepath="$PROJECT_DIR$/02_ssm/day07_easy_05annotationAOP/day07_easy_05annotationAOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day08_easy_01jdbctemplate/day08_easy_01jdbctemplate.iml" filepath="$PROJECT_DIR$/02_ssm/day08_easy_01jdbctemplate/day08_easy_01jdbctemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day08_easy_02tx/day08_easy_02tx.iml" filepath="$PROJECT_DIR$/02_ssm/day08_easy_02tx/day08_easy_02tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day08_easy_03tx_xml/day08_easy_03tx_xml.iml" filepath="$PROJECT_DIR$/02_ssm/day08_easy_03tx_xml/day08_easy_03tx_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day08_easy_04tx_anno/day08_easy_04tx_anno.iml" filepath="$PROJECT_DIR$/02_ssm/day08_easy_04tx_anno/day08_easy_04tx_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day08_easy_05anno_tx_withoutxml/day08_easy_05anno_tx_withoutxml.iml" filepath="$PROJECT_DIR$/02_ssm/day08_easy_05anno_tx_withoutxml/day08_easy_05anno_tx_withoutxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day09_easy_01springMVC_start/day09_easy_01springMVC_start.iml" filepath="$PROJECT_DIR$/02_ssm/day09_easy_01springMVC_start/day09_easy_01springMVC_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day09_easy_02springMVC_response/day09_easy_02springMVC_response.iml" filepath="$PROJECT_DIR$/02_ssm/day09_easy_02springMVC_response/day09_easy_02springMVC_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day09_easy_03springMVC_fileUpload/day09_easy_03springMVC_fileUpload.iml" filepath="$PROJECT_DIR$/02_ssm/day09_easy_03springMVC_fileUpload/day09_easy_03springMVC_fileUpload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day09_easy_04springMVC_exception/day09_easy_04springMVC_exception.iml" filepath="$PROJECT_DIR$/02_ssm/day09_easy_04springMVC_exception/day09_easy_04springMVC_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/day09_easy_05springMVC_interceptor/day09_easy_05springMVC_interceptor.iml" filepath="$PROJECT_DIR$/02_ssm/day09_easy_05springMVC_interceptor/day09_easy_05springMVC_interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaSE.iml" filepath="$PROJECT_DIR$/.idea/javaSE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ssm/ssmunit/ssmunit.iml" filepath="$PROJECT_DIR$/02_ssm/ssmunit/ssmunit.iml" />
     </modules>
   </component>
 </project>

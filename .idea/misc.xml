@@ -3,6 +3,49 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/02_ssm/day01_easy_01mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day01_easy_02mybatis_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day01_easy_03mybatis_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day01_easy_04mybatis_design/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day02_easy_01mybatisCRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day02_easy_02mybatisDAO/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day03_easy_01dynamicSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day03_easy_02one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day03_easy_03many2many/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day04_easy_01lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day04_easy_02cache/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day04_easy_03annotation_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day04_easy_04annoOne2Many/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day05_easy_01factory/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day05_easy_02spring/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day05_easy_03bean/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day05_easy_04DI/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day06_easy_01anno_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day06_easy_02account_xmlioc/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day06_easy_03account_annoioc/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day06_easy_04account_annoioc_withoutxml/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day07_easy_01account/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day07_easy_02proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day07_easy_03_springAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day07_easy_04adviceType/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day07_easy_05annotationAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day08_easy_01jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day08_easy_02tx/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day08_easy_03tx_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day08_easy_04tx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day08_easy_05anno_tx_withoutxml/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day09_easy_01springMVC_start/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day09_easy_02springMVC_response/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day09_easy_03springMVC_fileUpload/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day09_easy_04springMVC_exception/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/day09_easy_05springMVC_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ssm/ssmunit/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="14" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/java" />
   </component>
